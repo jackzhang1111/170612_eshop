@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+    <title>epetshop</title>
+    <link rel="stylesheet" href="./static/css/reset.css">
+  </head>
+  <body>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+  </body>
+  <script type="text/javascript">
+    document.addEventListener("touchstart",function(ev){
+      ev=ev||event;
+      ev.preventDefault();
+    });
+    (function(){
+      var styleNode = document.createElement("style");
+      var width = document.documentElement.clientWidth/16;
+      styleNode.innerHTML="html{font-size:"+width+"px!important}";
+      document.head.appendChild(styleNode);
+    })()
+  </script>
+</html>
