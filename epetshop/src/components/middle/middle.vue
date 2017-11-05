@@ -1,6 +1,6 @@
 <template>
   <div>
-    <scroller>
+
       <div class="banner1">
         <img src="../../img/activity.jpg" alt="">
       </div>
@@ -548,7 +548,6 @@
         </div>
         <p>© wap.epet.com 版权：重庆易宠科技有限公司</p>
       </div>
-    </scroller>
   </div>
 </template>
 
@@ -565,7 +564,7 @@
   @rem:23.4rem;
   div{
     width: 100%;
-    height: 4552 /@rem;
+    height: 4397 /@rem;
     .banner1{
       .banner();
       height:50 /@rem;

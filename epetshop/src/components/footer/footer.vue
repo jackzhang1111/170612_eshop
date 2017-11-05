@@ -20,8 +20,6 @@
     .footer-list{
       height: 55 /@rem;
       overflow: hidden;
-      border: 1px solid #000;
-
       li{
         float: left;
         width: 93 /@rem;

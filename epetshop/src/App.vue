@@ -1,7 +1,9 @@
 <template>
   <div id="wrap">
     <eHeader class="eHeader"></eHeader>
-    <eBody class="eBody"></eBody>
+    <scroller>
+      <eBody class="eBody"></eBody>
+    </scroller>
     <eFooter class="eFooter"></eFooter>
  </div>
 </template>
@@ -31,10 +33,14 @@
       left:0;
       width: 100%;
       height: 87/@rem;
+      background-color: #fff;
+      z-index: 1;
     }
     .eBody{
+      position: absolute;
       width: 100%;
-      padding-top: 87/@rem;
+      top: 88/@rem;
+      left:0;
     }
     .eFooter{
       position: absolute;
@@ -42,6 +48,8 @@
       bottom: 0 /@rem;
       width: 100%;
       height: 55 /@rem;
+      background-color: #fff;
+      z-index: 1;
     }
   }
 
