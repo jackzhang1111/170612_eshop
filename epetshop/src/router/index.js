@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import body from '../components/body/body.vue'
+import middle from '../components/middle/middle.vue'
 
 
 
@@ -10,11 +10,11 @@ export default new VueRouter({
   routes: [
     {
       path: '/',
-      redirect: '/body'
+      redirect: '/middle'
     },
     {
-      path: '/body',
-      component: body
+      path: '/middle',
+      component: middle
     },
   ]
 })

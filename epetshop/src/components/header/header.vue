@@ -10,7 +10,7 @@
     </div>
     <div class="header-down">
       <ul class="header-list">
-        <li><a href="#"><span>首页1</span></a></li>
+        <li><a href="#"><span class="clickColor">首页1</span></a></li>
         <li><a href="#"><span>首页2</span></a></li>
         <li><a href="#"><span>首页3</span></a></li>
         <li><a href="#"><span>首页4</span></a></li>
@@ -34,7 +34,6 @@
     .header-up{
       position: relative;
       height: 51/@rem;
-      background: pink;
       line-height: 51/@rem;
       span{
         color: #898989;
@@ -76,6 +75,9 @@
             span{
               font-size: 14 /@rem;
               color: #898989;
+              &.clickColor{
+                color: green;
+              }
             }
           }
         }

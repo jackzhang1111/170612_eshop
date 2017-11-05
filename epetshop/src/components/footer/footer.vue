@@ -20,15 +20,29 @@
     .footer-list{
       height: 55 /@rem;
       overflow: hidden;
+      border: 1px solid #000;
+
       li{
         float: left;
         width: 93 /@rem;
         height: 55 /@rem;
         text-align: center;
-        line-height: 55 /@rem;
+        line-height: 90/@rem;
         .cssSprite1{
           .icons();
-          background-position: -18/@rem 0;
+          background-position: -8/@rem -2/@rem;
+        }
+        .cssSprite2{
+          .icons();
+          background-position: -90/@rem -49/@rem;
+        }
+        .cssSprite3{
+          .icons();
+          background-position: -90/@rem -95/@rem;
+        }
+        .cssSprite4{
+          .icons();
+          background-position: -90/@rem -140/@rem;
         }
 
 
